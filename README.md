@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Kotlin related to ConcurrentModificationException.  When removing elements from a MutableMap while iterating, a ConcurrentModificationException is thrown.  The provided solution showcases a safe way to modify the map.
